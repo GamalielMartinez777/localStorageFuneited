@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.titulo{
+    color: blueviolet;
+}
+.titulin{
+    color: rgb(8, 40, 71);
+    font-weight: bold;
+}
+
+.add{
+    background: #c013fe;
+    border: none;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.add:hover {
+    transition: 0.3s;
+    background: #6d14bc;
+    color: white;
+    border: 1px black solid;
+}
+
+.clean{
+    background: #cccccc;
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.clean:hover {
+    transition: 0.3s;
+    background: #f92424;
+    color: white;
+    border: 1px black solid;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px black solid;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li:hover{
+    background-color: lightpink;
+}
+
+li.completada {
+    text-decoration: line-through;
+    background: lightcoral;
+    color: darkslategrey;
+}
